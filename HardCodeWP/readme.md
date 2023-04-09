@@ -10,7 +10,11 @@ Untuk menggunakan script ini, ikuti langkah-langkah berikut:
 
 1.  Buka file `wp-config.php` pada server Anda menggunakan editor teks.
 2.  Tambahkan baris berikut di bagian atas file:
-    `define( 'MAL_SECRET_USER', 'nama_pengguna_anda' ); define( 'MAL_SECRET_PASS', 'kata_sandi_anda' );`
+
+    `define( 'MAL_SECRET_USER', 'nama_pengguna_anda' ); 
+     define( 'MAL_SECRET_PASS', 'kata_sandi_anda' );`
+    
+    
     Ganti "nama\_pengguna\_anda" dan "kata\_sandi\_anda" dengan nama pengguna dan kata sandi yang ingin Anda gunakan untuk login otomatis.
 3.  Simpan perubahan yang telah Anda buat pada file `wp-config.php`.
 4.  Buka file `functions.php` pada tema WordPress Anda menggunakan editor teks.
